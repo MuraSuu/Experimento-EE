@@ -6,7 +6,7 @@ Se trata de um projeto para aplicar o que eu aprendi nos ultimos 4 meses em rela
 
 O notebook tem duas partes. 
 
-A primeira se trata de uma analise bivariada entre as notas de proeficiencia em matematica e portugues.
+A primeira se trata de uma analise bivariada entre as notas de proficiencia em matematica e portugues.
 
 Explorar a relação entre o histórico de reprovação dos estudantes e suas respostas às seguintes questões do questionário do SAEB:
 
@@ -37,14 +37,14 @@ Inicialmente, a hipótese era de que estudantes reprovados apresentariam menor i
 - Tabelas de contingência para cruzamento de respostas.
 - Testes de independência usando qui-quadrado.
 - Teste de associção usando spearman.
-- Visualizações com heatmaps e interpretação descritiva.
+- Visualizações com heatmaps.
 
 ## Principais conclusões
 
-- Não há associação estatisticamente significativa entre histórico de reprovação e as respostas de interesse ou motivação dos estudantes (valor-p ≈ 0.99).
+- Não há associação estatisticamente significativa entre histórico de reprovação e as respostas de interesse ou motivação dos estudantes (p-valor ≈ 0.99).
 - Os coeficientes de associação (como Cramer's V) também indicam dependência fraca entre as variáveis.
 - As notas de matematica e portugues tem uma relação positiva, porem não linear por conta de algum tipo de heteroscedasticidade.
 
 ## Como rodar
 
-Basta abrir o notebook `.ipynb` com JupyterLab ou Jupyter Notebook. Os dados brutos devem ser obtidos diretamente no portal do INEP. Certifique-se de ter as bibliotecas listadas acima instaladas.
+Basta abrir o notebook `.ipynb` com JupyterLab ou Jupyter Notebook. Os dados brutos devem ser obtidos diretamente no portal do INEP.
